@@ -138,7 +138,7 @@ const generateM3u = async () => {
         
         combinedData.forEach(channel => {
             m3uStr += `#EXTINF:-1 tvg-id="${channel.tvg_id}" `;
-            m3uStr += `group-title="${channel.group_title}", tvg-logo="${channel.tvg_logo}", ${channel.name}\n`;
+            m3uStr += `group-title="Techy Kuldeep ${channel.group_title}", tvg-logo="${channel.tvg_logo}", ${channel.name}\n`;
             m3uStr += '#KODIPROP:inputstream.adaptive.license_type=clearkey\n';
             m3uStr += `#KODIPROP:inputstream.adaptive.license_key=${channel.clearkey || ''}\n`;
             m3uStr += '#EXTVLCOPT:http-user-agent=Mozilla/5.0\n';
