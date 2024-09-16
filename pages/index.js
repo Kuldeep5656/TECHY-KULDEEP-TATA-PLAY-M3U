@@ -99,7 +99,7 @@ export default function Home() {
         <Grid.Row>
           <Grid.Column></Grid.Column>
           <Grid.Column textAlign='center' computer={8} tablet={12} mobile={16}>
-          <a href="https://t.me/IPTVINDIA4785" target="_blank" rel="noreferrer"><b>CREATED BY : TECHY KULDEEP </b></a>
+          <a href="https://telegram.me/WORLD_IPTV_1" target="_blank" rel="noreferrer"><b>CREATED BY : TECHY KULDEEP </b></a>
           </Grid.Column>
           <Grid.Column></Grid.Column>
         </Grid.Row>
